@@ -6,7 +6,7 @@
 
 1. Otwórz plik `app.R` w programie RStudio (bądź otwórz IDE RStudio i ustaw ścieżkę roboczą w katalogu aplikacji).
 2. Zainstaluj bibliotekę `renv` poprzez `install.packages('renv')`.
-3. Zainstaluj zależności: `renv::restore(prompt = FALSE, lockfile = "renv.lock")`.
+3. Zainstaluj zależności: `renv::restore(prompt = FALSE)`.
 
 ### Uruchomienie aplikacji
 

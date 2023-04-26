@@ -3,8 +3,11 @@ data_header <- function(store, department) {
 }
 
 subset_data <- function(data, cols) {
+  if (length(cols) == 0) {
+    return(data)
+  }
   valid_cols <- intersect(cols, colnames(data))
-  data[, valid_cols]
+  data[, valid_cols, drop = FALSE]
 }
 
 read_data <- function(store) {

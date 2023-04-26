@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export IMAGE_VERSION=1.1
+export IMAGE_VERSION=1.2
 export IMAGE_NAME=krystian8207/sales_app
 export IMAGE=$IMAGE_NAME:$IMAGE_VERSION
 

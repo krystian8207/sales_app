@@ -1,5 +1,5 @@
 data_header <- function(store, department) {
-  paste0("Showing data from store ", store, " and department ", department)
+	glue::glue("Showing data from store {store} and department {department}")
 }
 
 subset_data <- function(data, cols) {
